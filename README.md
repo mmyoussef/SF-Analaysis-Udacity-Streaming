@@ -1,4 +1,4 @@
-# SF-Analaysis-Udacity-Streaming
+# Udacity Data Streaming using Spark Structured Streaming
 Includes the analysis of the San Francisco Crime Data using Spark streaming and kafka
 
 ## Deliveries
@@ -12,15 +12,22 @@ Includes the analysis of the San Francisco Crime Data using Spark streaming and 
 First of all, Zookeeper server was started and the kafka broker. After that the kafka_server.py file was executed and records were produced to the kafka topic. Through Kafka CLI kafka-console-consumer, the records were consumed for validation
 
 
+![console consume](1-console-consumer.PNG)
+
+
 Then another consumption way through consumer_server.py
 
-
+![consumer script](2-consumer-server-py.PNG)
 
 After finalinzing the code of spark structured streaming and executing the script, the results were as follows:
 
+![consumer script](delivery-3-Aggregate.PNG)
 
 
 and below attached an image from the spark UI
+
+![consumer script](4-Spark-UI.PNG)
+
 
 ## Optimization Discussion
 
